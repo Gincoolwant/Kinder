@@ -1,0 +1,41 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing:border-box;
+}
+
+*{
+  font-family: 'Lato', sans-serif;
+/*   outline:1px solid; */
+}
+
+
+.navbar-brand {
+  font-weight: bolder;
+}
+
+.avatar:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.modalAvatar {
+  border-radius: 50%;
+}
+
+#btn-dislike:hover {
+  background: #dc3545;
+}
+
+#btn-like:hover {
+  background: #333;
+}
+
+.btn{
+  border:none !important;
+}
+
+.card:hover{
+  transition: 1s ease;
+  transform: scale(110%)
+}
